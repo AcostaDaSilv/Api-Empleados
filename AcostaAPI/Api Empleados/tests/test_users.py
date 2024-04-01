@@ -9,8 +9,8 @@ def test_login_api():
     resp = client.post(
         "/login",
         data={
-            "username": "pedropicapiedra",
-            "password": "secret"
+            "username": "usuarioprueba",
+            "password": "secreto"
         })
     
     assert resp.status_code == 200
